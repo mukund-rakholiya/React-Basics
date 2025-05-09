@@ -1,0 +1,36 @@
+.counter {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+.counter-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.counter-value {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+.counter-buttons button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.counter-buttons button:active {
+    transform: scale(0.98);
+}
