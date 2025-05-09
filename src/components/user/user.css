@@ -1,40 +1,64 @@
-.userlist-container {
-    max-width: 500px;
-    margin: 50px auto;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* style.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.userlist-title {
-    font-size: 2rem;
-    margin-bottom: 20px;
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Table Styles */
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f7fafc;
     color: #333;
 }
 
-.userlist-loading {
-    font-size: 1.2rem;
-    color: #888;
+tbody tr {
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.userlist-ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
+tbody tr:hover {
+    background-color: #f4f4f9;
 }
 
-.userlist-item {
-    background-color: #ffffff;
-    margin: 10px 0;
-    padding: 12px 20px;
-    border-radius: 8px;
-    transition: background-color 0.2s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+tbody tr:last-child {
+    border-bottom: none;
 }
 
-.userlist-item:hover {
-    background-color: #e6f2ff;
+.no-users {
+    text-align: center;
+    color: #777;
+    padding: 20px;
 }
