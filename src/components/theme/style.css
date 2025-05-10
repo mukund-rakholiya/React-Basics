@@ -9,7 +9,15 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
     margin: 0;
-    font-family: sans-serif;
-    transition: background-color 0.3s, color 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }

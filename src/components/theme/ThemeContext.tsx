@@ -1,5 +1,5 @@
 import React, { createContext, ReactNode, useContext, useState } from 'react';
-
+import "./style.css";
 
 type Theme = "light" | "dark";
 
