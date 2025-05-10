@@ -9,17 +9,15 @@ import ThemeToggle from './components/theme/ThemeToggle';
 
 function App() {
   return (
-    <>
+    <div>
       <ThemeToggle />
       <Routes>
-        <div>
-          <Route path="/" element={<Home />} />
-          <Route path="/counter" element={<Counter />} />
-          <Route path="/user" element={<User />} />
-          <Route path="/form" element={<UserForm />} />
-        </div>
+        <Route path="/" element={<Home />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/form" element={<UserForm />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
