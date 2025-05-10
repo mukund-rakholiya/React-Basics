@@ -1,14 +1,20 @@
+// src/App.tsx
 import React from 'react';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 import Counter from './components/counter/Counter';
 import User from './components/user/User';
+import UserForm from './components/form/UserForm';
 
 function App() {
   return (
     <>
-      <Counter />
-      <br /><br /><br /><br />
-      <User />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/form" element={<UserForm />} />
+      </Routes>
     </>
   );
 }
