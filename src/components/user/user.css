@@ -5,8 +5,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f7fc;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     display: flex;
+    max-width: fit-content;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -20,7 +23,7 @@ h2 {
 
 /* Table Styles */
 .table-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
@@ -68,7 +71,7 @@ tbody tr:last-child {
 .form-container {
     margin: 20px auto;
     padding: 20px;
-    max-width: 400px;
+    max-width: 500px;
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
