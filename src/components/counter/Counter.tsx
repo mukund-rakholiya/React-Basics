@@ -19,7 +19,7 @@ function Counter() {
     }
 
     return (
-        <div className='counter'>
+        <div className='counter-container'>
             <h1 className='counter-title'>Counter</h1>
             <p className='counter-value'>Counter: {count} </p>
             <div className='counter-buttons'>
