@@ -10,7 +10,6 @@ import ThemeToggle from './components/theme/ThemeToggle';
 function App() {
   return (
     <div>
-      <ThemeToggle />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
