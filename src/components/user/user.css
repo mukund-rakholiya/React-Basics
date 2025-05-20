@@ -21,6 +21,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
+
 /* Table Styles */
 .table-container {
     width: 100%;
@@ -66,8 +67,8 @@ tbody tr:last-child {
     padding: 20px;
 }
 
-/* style.css */
 
+/* style.css */
 .form-container {
     margin: 20px auto;
     padding: 20px;
