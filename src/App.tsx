@@ -5,7 +5,7 @@ import Counter from './components/counter/Counter';
 import User from './components/user/User';
 import UserForm from './components/form/UserForm';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <Routes>
