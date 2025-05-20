@@ -34,7 +34,8 @@ const UserForm: React.FC = () => {
             else {
                 setMessage("Error creating message...");
             }
-        } catch (error) {
+        }
+        catch (error) {
             console.error("Error:", error);
             setMessage(`Server error: ${error}`)
         }
