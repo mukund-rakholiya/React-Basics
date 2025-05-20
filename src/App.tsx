@@ -1,11 +1,9 @@
-// src/App.tsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Counter from './components/counter/Counter';
 import User from './components/user/User';
 import UserForm from './components/form/UserForm';
-import ThemeToggle from './components/theme/ThemeToggle';
 
 function App() {
   return (
