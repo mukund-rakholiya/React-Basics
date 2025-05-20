@@ -15,7 +15,6 @@ const UserForm: React.FC = () => {
             age: Number(age),
         }
 
-
         try {
             const response = await fetch("http://localhost:8000/users", {
                 "method": "POST",
